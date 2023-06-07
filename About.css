@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0px;
+}
+header{
+    position:sticky;
+    top:0px;
+    background-color:#161618;
+   
+
+}
+body{
+    background-image:linear-gradient(to bottom,#161618,#44318D);
+    height:210vh;
+    width:100vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.0;
+    color:white;
+    text-align: center;
+    /* background-color:#161618; */
+}
+h2{
+    text-align:left;
+    color:#D83F87;
+    padding-left:10vw;
+    padding-top:5vh;
+    
+}
+nav{
+   
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    color:white;
+    position:sticky;
+    top:0px;
+}
+.logo{
+    
+    width:6vh;
+    height:6vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ9kb1tFb13ee_4FZ37_sEUhvysQ9VtqWDcA&usqp=CAU");
+    background-size: 6vh;
+    position:sticky;
+    top:0px;
+}
+ul{
+display:flex;
+flex-direction:row;
+height:7vh;
+align-items:center;
+list-style: none;
+}
+li{
+    padding:60px;
+    font-weight:600;
+    font-size:larger;
+    text-transform:uppercase;   
+}
+.home{
+    color:#D83F87;
+    text-decoration: none;   
+}
+.About{
+    color:white;
+    text-decoration: none;
+}
+.Alumni{
+    color:white;
+    text-decoration: none;
+
+}
+.img-size{
+    display:flex;
+    justify-content:center;
+    width:100vw;
+    
+}
+.container{
+    text-align:left;
+    padding:0px
+}
+.container ul{
+    height:50vh;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.container li{
+   padding:16px;
+    padding-left:14vw; 
+   color:#D83F87;
+}
+p{
+    padding-left:20vw;
+    font-size:larger;
+}
+footer{
+width:100vw;
+height:20vh;
+display:flex;
+flex-direction:row;
+color:white;
+font-size:small;
+}
+ footer ul{
+     display:flex;
+     flex-direction:column;
+     width:30vw;  
+     
+ }
+ footer li{
+     padding: 10px 30px;
+     /* padding-bottom:4px; */
+     font-weight: lighter;
+  
+ }
+ 
+ .first{
+     color:#D83F87;
+     font-weight:700;
+    
+ }

@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0px;
+}
+header{
+    position:sticky;
+    top:0px;
+    background-color:#161618;
+
+}
+body{
+    background-image:linear-gradient(to bottom,#161618,#44318D);
+    height:160vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.0;
+    /* background-color:#161618; */
+}
+nav{
+   
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    color:white;
+    position:sticky;
+    top:0px;
+}
+.logo{
+    
+    width:6vh;
+    height:6vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ9kb1tFb13ee_4FZ37_sEUhvysQ9VtqWDcA&usqp=CAU");
+    background-size: 6vh;
+    position:sticky;
+    top:0px;
+}
+ul{
+display:flex;
+flex-direction:row;
+height:7vh;
+align-items:center;
+list-style: none;
+}
+li{
+    padding:60px;
+    font-weight:600;
+    font-size:larger;
+    text-transform:uppercase;   
+}
+.home{
+    color:#D83F87;
+    text-decoration: none;   
+}
+.About{
+    color:white;
+    text-decoration: none;
+}
+.Alumni{
+    color:white;
+    text-decoration: none;
+
+}
+.container{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    flex-direction: column;
+    /* background-color: #161618; */
+}
+.Alumni-Main1{
+    background-image:url("https://www.iith.ac.in/assets/images/slider/banner1.jpg");
+    background-size: cover;
+    height:60vh;
+    line-height: 0.7px;;
+    width:80vw;   
+   
+}
+.Alumni-Main2{
+    margin:80px;
+    width:80vh;
+    height:35vh;
+    text-align: center;
+    color:white;  
+}
+p{
+    font-size:larger;
+}
+footer{
+   width:100vw;
+   height:20vh;
+    display:flex;
+flex-direction:row;
+color:white;
+font-size:small;
+}
+footer ul{
+    display:flex;
+    flex-direction:column;
+    width:30vw;  
+    
+}
+footer li{
+    padding: 10px 30px;
+    /* padding-bottom:4px; */
+    font-weight: lighter;
+ 
+}
+
+.first{
+    color:#D83F87;
+    font-weight:700;
+   
+}
