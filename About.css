@@ -11,7 +11,7 @@ header{
 }
 body{
     background-image:linear-gradient(to bottom,#161618,#44318D);
-    height:210vh;
+    height:200vh;
     width:100vw;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2.0;
@@ -37,7 +37,6 @@ nav{
     top:0px;
 }
 .logo{
-    
     width:6vh;
     height:6vh;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ9kb1tFb13ee_4FZ37_sEUhvysQ9VtqWDcA&usqp=CAU");
@@ -75,8 +74,10 @@ li{
     display:flex;
     justify-content:center;
     width:100vw;
-    
-}
+    height:40vh;
+    animation: main-images 0.6s ease-out  ;
+    }
+
 .container{
     text-align:left;
     padding:0px
@@ -89,13 +90,15 @@ li{
 }
 .container li{
    padding:16px;
-    padding-left:14vw; 
+    padding-left:15vw; 
    color:#D83F87;
 }
 p{
-    padding-left:20vw;
-    font-size:larger;
+    padding-left:30vw;
+    font-size:large;
+    width:50vw;
 }
+
 footer{
 width:100vw;
 height:20vh;
@@ -122,3 +125,14 @@ font-size:small;
      font-weight:700;
     
  }
+
+ @keyframes main-images{
+    0% {
+        width:0;
+        
+    }
+    100%{
+        width:32vw;
+       
+    }
+}
