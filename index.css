@@ -67,6 +67,7 @@ li{
     flex-direction: column;
     /* background-color: #161618; */
 }
+
 .Alumni-Main1{
     background-image:url("https://www.iith.ac.in/assets/images/slider/banner1.jpg");
     animation: main-images 1s ease-in-out  ;
