@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Alumni.github.io/react-gh-pages/static/css/main.87761a72.css",
+    "main.js": "/Alumni.github.io/react-gh-pages/static/js/main.379a470a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Alumni.github.io/react-gh-pages/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Alumni.github.io/react-gh-pages/index.html",
+    "main.87761a72.css.map": "/Alumni.github.io/react-gh-pages/static/css/main.87761a72.css.map",
+    "main.379a470a.js.map": "/Alumni.github.io/react-gh-pages/static/js/main.379a470a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Alumni.github.io/react-gh-pages/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87761a72.css",
+    "static/js/main.379a470a.js"
+  ]
+}
