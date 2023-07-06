@@ -1,0 +1,31 @@
+
+ .footer-main{
+   
+    background-color:#161618;
+    width:100vw;
+    height:20vh;
+    display:flex;
+     flex-direction:row;
+     color:white;
+     font-size:small;
+   
+ }
+ .footer-main ul{
+     display:flex;
+     flex-direction:column;
+     width:30vw;  
+     list-style: none;
+     
+ }
+ footer .footer-main li{
+     padding: 5px 30px;
+     /* padding-bottom:4px; */
+     font-weight: light;
+     font-size: 10px;
+  
+ }
+ .first{
+     color:#D83F87;
+     font-weight:bold;
+     font-size: 10px;
+ }

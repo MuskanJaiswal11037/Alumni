@@ -2,14 +2,13 @@
     margin:0;
     padding:0px;
 }
-header{
+.About header{
     position:sticky;
     top:0px;
     background-color:#161618;
-   
 
 }
-body{
+.About {
     background-image:linear-gradient(to bottom,#161618,#44318D);
     height:200vh;
     width:100vw;
@@ -19,7 +18,7 @@ body{
     text-align: center;
     /* background-color:#161618; */
 }
-h2{
+.About h2{
     text-align:left;
     color:#D83F87;
     padding-left:10vw;
@@ -27,7 +26,7 @@ h2{
     
 }
 
-nav{
+.About nav{
    
     display:flex;
     flex-direction: row;
@@ -37,7 +36,7 @@ nav{
     position:sticky;
     top:0px;
 }
-.logo{
+.About .logo{
     width:6vh;
     height:6vh;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ9kb1tFb13ee_4FZ37_sEUhvysQ9VtqWDcA&usqp=CAU");
@@ -45,94 +44,53 @@ nav{
     position:sticky;
     top:0px;
 }
-ul{
+.About ul{
 display:flex;
 flex-direction:row;
 height:7vh;
 align-items:center;
 list-style: none;
 }
-li{
+.About li{
     padding:60px;
     font-weight:600;
     font-size:larger;
     text-transform:uppercase;   
 }
-.home{
+.About .a{
     color:#D83F87;
     text-decoration: none;   
 }
-.About{
+.About .b,.About.c{
     color:white;
     text-decoration: none;
 }
-.Alumni{
-    color:white;
-    text-decoration: none;
 
-}
-.img-size{
+.About .img-size{
     display:flex;
     justify-content:center;
     width:100vw;
     height:40vh;
     animation: main-images 0.6s ease-out  ;
     }
-.container{
+.About.container{
     text-align:left;
     padding:0px
 }
-.container ul{
+.About .container ul{
     height:50vh;
     display:flex;
     flex-direction:column;
     align-items:flex-start;
 }
-.container li{
+.About .container li{
    padding:16px;
     padding-left:15vw; 
    color:#D83F87;
 }
-p{
+.About p{
     padding-left:30vw;
-    font-size:larger;
+    font-size:small;
     width:50vw;
 }
 
-footer{
-width:100vw;
-height:20vh;
-display:flex;
-flex-direction:row;
-color:white;
-font-size:small;
-}
- footer ul{
-     display:flex;
-     flex-direction:column;
-     width:30vw;  
-     
- }
- footer li{
-     padding: 10px 30px;
-     /* padding-bottom:4px; */
-     font-weight: lighter;
-  
- }
- 
- .first{
-     color:#D83F87;
-     font-weight:700;
-    
- }
-
- @keyframes main-images{
-    0% {
-        width:0;
-        
-    }
-    100%{
-        width:32vw;
-       
-    }
-}

@@ -2,20 +2,20 @@
     margin:0;
     padding:0px;
 }
-header{
+.Home-page header{
     position:sticky;
     top:0px;
     background-color:#161618;
 
 }
-body{
+.Home-page {
     background-image:linear-gradient(to bottom,#161618,#44318D);
-    height:220vh;
+    height:210vh;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2.0;
     /* background-color:#161618; */
 }
-nav{
+.Home-page nav{
    
     display:flex;
     flex-direction: row;
@@ -25,7 +25,7 @@ nav{
     position:sticky;
     top:0px;
 }
-.logo{
+.Home-page .logo{
     
     width:6vh;
     height:6vh;
@@ -34,33 +34,29 @@ nav{
     position:sticky;
     top:0px;
 }
-ul{
+.Home-page ul{
 display:flex;
 flex-direction:row;
 height:7vh;
 align-items:center;
 list-style: none;
 }
-li{
+.Home-page li{
     padding:60px;
     font-weight:600;
     font-size:larger;
     text-transform:uppercase;   
 }
-.home{
+.Home-page .a{
     color:#D83F87;
     text-decoration: none;   
 }
-.About{
+.Home-page .b,.c{
     color:white;
     text-decoration: none;
 }
-.Alumni{
-    color:white;
-    text-decoration: none;
 
-}
-.container{
+.Home-page .container{
     display:flex;
     justify-content:left;
     align-items:center;
@@ -68,7 +64,7 @@ li{
     /* background-color: #161618; */
 }
 
-.Alumni-Main1{
+.Home-page .Alumni-Main1{
     background-image:url("https://www.iith.ac.in/assets/images/slider/banner1.jpg");
     animation: main-images 1s ease-in-out  ;
     background-size: cover;
@@ -77,25 +73,26 @@ li{
     width:80vw;   
    
 }
-.Alumni-Main2{
+.Home-page .Alumni-Main2{
     margin:80px;
     width:80vh;
     height:35vh;
     text-align: center;
     color:white;  
+    
 }
-p{
-    font-size:large;
+.Home-page p{
+    font-size:small;
     /* transition-property:size;
     transition-duration: 5s;
     transition-delay: 2s;
     transition-timing-function:linear;  */
 } 
-p:hover{
-    font-size:larger;
+.Home-page p:hover{
+    font-size:medium;
 }
 
-.img2,.img3{
+.Home-page .img2,.img3{
     width:32vw;
     height:40vh;
    padding:100px;
@@ -104,32 +101,7 @@ p:hover{
    
 }
 
-footer{
-   width:100vw;
-   height:20vh;
-    display:flex;
-flex-direction:row;
-color:white;
-font-size:small;
-}
-footer ul{
-    display:flex;
-    flex-direction:column;
-    width:30vw;  
-    
-}
-footer li{
-    padding: 10px 30px;
-    /* padding-bottom:4px; */
-    font-weight: lighter;
- 
-}
 
-.first{
-    color:#D83F87;
-    font-weight:700;
-   
-}
 @keyframes images {
     0% {
         width:0;
