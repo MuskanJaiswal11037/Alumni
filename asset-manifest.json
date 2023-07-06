@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Alumni/react-gh-pages/static/css/main.87761a72.css",
-    "main.js": "/Alumni/react-gh-pages/static/js/main.99f9563d.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Alumni/react-gh-pages/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/Alumni/react-gh-pages/index.html",
-    "main.87761a72.css.map": "/Alumni/react-gh-pages/static/css/main.87761a72.css.map",
-    "main.99f9563d.js.map": "/Alumni/react-gh-pages/static/js/main.99f9563d.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Alumni/react-gh-pages/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Alumni/reactlivewebsite/static/css/main.87761a72.css",
+    "main.js": "/Alumni/reactlivewebsite/static/js/main.091cf095.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Alumni/reactlivewebsite/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Alumni/reactlivewebsite/index.html",
+    "main.87761a72.css.map": "/Alumni/reactlivewebsite/static/css/main.87761a72.css.map",
+    "main.091cf095.js.map": "/Alumni/reactlivewebsite/static/js/main.091cf095.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Alumni/reactlivewebsite/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87761a72.css",
-    "static/js/main.99f9563d.js"
+    "static/js/main.091cf095.js"
   ]
 }
