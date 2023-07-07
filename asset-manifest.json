@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Alumni/reactlivewebsite/static/css/main.87761a72.css",
-    "main.js": "/Alumni/reactlivewebsite/static/js/main.091cf095.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Alumni/reactlivewebsite/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/Alumni/reactlivewebsite/index.html",
-    "main.87761a72.css.map": "/Alumni/reactlivewebsite/static/css/main.87761a72.css.map",
-    "main.091cf095.js.map": "/Alumni/reactlivewebsite/static/js/main.091cf095.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Alumni/reactlivewebsite/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Alumni/static/css/main.87761a72.css",
+    "main.js": "/Alumni/static/js/main.f1932c2b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Alumni/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Alumni/index.html",
+    "main.87761a72.css.map": "/Alumni/static/css/main.87761a72.css.map",
+    "main.f1932c2b.js.map": "/Alumni/static/js/main.f1932c2b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Alumni/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87761a72.css",
-    "static/js/main.091cf095.js"
+    "static/js/main.f1932c2b.js"
   ]
 }
