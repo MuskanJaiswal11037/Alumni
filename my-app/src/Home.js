@@ -11,9 +11,9 @@ return(
             <div className="logo">
             </div>
             <ul>
-                <li><Link className="a" to="/">Home</Link></li>
-                <li><Link className="b" to="/About">About</Link></li>
-                <li><Link className="c" to="/">Alumni Events</Link></li>
+                <li><Link className="a" to="/Alumni/">Home</Link></li>
+                <li><Link className="b" to="/Alumni/About">About</Link></li>
+                <li><Link className="c" to="/Alumni/">Alumni Events</Link></li>
             </ul>
         </nav>
 </header>
