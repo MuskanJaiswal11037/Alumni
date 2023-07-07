@@ -11,7 +11,7 @@
 .Home-page {
     background-image:linear-gradient(to bottom,#161618,#44318D);
     height:210vh;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Helvetica, Arial, sans-serif';
     line-height: 2.0;
     /* background-color:#161618; */
 }
@@ -81,18 +81,23 @@ list-style: none;
     color:white;  
     
 }
+.Home-page h3{
+    margin-top:10vh;
+}
 .Home-page p{
-    font-size: medium;;
+   
+    font-size: large;
     /* transition-property:size;
     transition-duration: 5s;
     transition-delay: 2s;
     transition-timing-function:linear;  */
 } 
 .Home-page p:hover{
-    font-size:large;
+    font-size:larger;
 }
 
 .Home-page .img2,.img3{
+   margin-top: 10vh;
     width:32vw;
     height:40vh;
    padding:100px;

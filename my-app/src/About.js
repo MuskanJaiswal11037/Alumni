@@ -15,7 +15,7 @@ export default function About(){
         </nav>
 </header>
    <div className="img-size">
-       <img  src='https://images.newindianexpress.com/uploads/user/imagelibrary/2022/10/2/w900X450/iith.JPG?w=400&dpr=2.6' alt="IITH" width="70%" height="100%" />
+       <img  src='https://www.campusvarta.com/uploads/2022/12/19/all-alumni-during-alumni-day1671433980.jpg' alt="IITH" width="75%" height="125%"  />
     </div>
     <div className="container">
     <div>
