@@ -82,14 +82,14 @@ list-style: none;
     
 }
 .Home-page p{
-    font-size:small;
+    font-size: medium;;
     /* transition-property:size;
     transition-duration: 5s;
     transition-delay: 2s;
     transition-timing-function:linear;  */
 } 
 .Home-page p:hover{
-    font-size:medium;
+    font-size:large;
 }
 
 .Home-page .img2,.img3{

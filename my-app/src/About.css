@@ -10,7 +10,7 @@
 }
 .About {
     background-image:linear-gradient(to bottom,#161618,#44318D);
-    height:200vh;
+    height:160vh;
     width:100vw;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2.0;
@@ -90,7 +90,7 @@ list-style: none;
 }
 .About p{
     padding-left:30vw;
-    font-size:small;
+    font-size: large;
     width:50vw;
 }
 
