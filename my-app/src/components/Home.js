@@ -1,4 +1,4 @@
-import './home.css'
+import '../styles/home.css'
 import { Link } from "react-router-dom";
 export default function homepage()
 {
@@ -11,9 +11,9 @@ return(
             <div className="logo">
             </div>
             <ul>
-                <li><Link className="a" to="/Alumni/">Home</Link></li>
-                <li><Link className="b" to="/Alumni/About">About</Link></li>
-                <li><Link className="c" to="/Alumni/">Alumni Events</Link></li>
+                <li><Link className="Home" to="/Alumni/">Home</Link></li>
+                <li><Link className="About-Nav" to="/Alumni/About">About</Link></li>
+                <li><Link className="Alumni" to="/Alumni/">Alumni Events</Link></li>
             </ul>
         </nav>
 </header>

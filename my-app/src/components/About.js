@@ -1,4 +1,4 @@
-import './About.css';
+import '../styles/About.css';
 import { Link } from "react-router-dom";
 export default function About(){
     return(
@@ -8,14 +8,14 @@ export default function About(){
         <div className="logo">
             </div>
             <ul>
-                <li><Link className="a" to="/Alumni/">Home</Link></li>
-                <li><Link className="b" to="/Alumni/About">About</Link></li>
-                <li><Link className="c" to="/Alumni/">Alumni Events</Link></li>
+                <li><Link className="Home" to="/Alumni/">Home</Link></li>
+                <li><Link className="About_Nav" to="/Alumni/About">About</Link></li>
+                <li><Link className="Alumni" to="/Alumni/">Alumni Events</Link></li>
             </ul>
         </nav>
 </header>
    <div className="img-size">
-       <img  src='https://www.campusvarta.com/uploads/2022/12/19/all-alumni-during-alumni-day1671433980.jpg' alt="IITH" width="75%" height="125%"  />
+       <img  src='https://www.campusvarta.com/uploads/2022/12/19/all-alumni-during-alumni-day1671433980.jpg' alt="IITH" width="75%" height="135%"  />
     </div>
     <div className="container">
     <div>

@@ -61,11 +61,11 @@ list-style: none;
     font-size:larger;
     text-transform:uppercase;   
 }
-.About .a{
+.About .Home{
     color:#D83F87;
     text-decoration: none;   
 }
-.About .b,.About.c{
+.About .About_Nav,.About .Alumni{
     color:white;
     text-decoration: none;
 }
@@ -97,4 +97,18 @@ list-style: none;
     font-size: large;
     width:50vw;
 }
+
+@keyframes main-images{
+    0% {
+        width:0;
+        height:30vh;
+        
+    }
+    100%{
+        width:32vw;
+        height:30vh;
+    }
+}
+
+    
 

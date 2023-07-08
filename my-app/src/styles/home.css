@@ -47,11 +47,11 @@ list-style: none;
     font-size:larger;
     text-transform:uppercase;   
 }
-.Home-page .a{
+.Home-page .Home{
     color:#D83F87;
     text-decoration: none;   
 }
-.Home-page .b,.c{
+.Home-page .About-Nav, .Home-page .Alumni{
     color:white;
     text-decoration: none;
 }
@@ -118,14 +118,4 @@ list-style: none;
     }
 
     
-}
-@keyframes main-images{
-    0% {
-        width:0;
-        
-    }
-    100%{
-        width:32vw;
-       
-    }
 }
