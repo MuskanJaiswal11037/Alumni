@@ -5,10 +5,10 @@ import {HashRouter,Routes,Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-    <HashRouter basename='/Alumni'>
+    <HashRouter basename='/'>
       <Routes>
        <Route path="/"  exact element ={<Home/>}></Route>
-       <Route path = "/About"  element ={<About/>}></Route>
+       <Route path = "/Alumni/About"  element ={<About/>}></Route>
       </Routes>
     </HashRouter>
     </div>
