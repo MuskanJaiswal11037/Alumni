@@ -8,7 +8,7 @@ function App() {
     <HashRouter basename='/'>
       <Routes>
        <Route path="/"  exact element ={<Home/>}></Route>
-       <Route path = "/Alumni/About"  element ={<About/>}></Route>
+       <Route path = "/About"  element ={<About/>}></Route>
       </Routes>
     </HashRouter>
     </div>
