@@ -8,9 +8,9 @@ export default function About(){
         <div className="logo">
             </div>
             <ul>
-                <li><Link className="Home" to="/Alumni/">Home</Link></li>
-                <li><Link className="About_Nav" to="/Alumni/About">About</Link></li>
-                <li><Link className="Alumni" to="/Alumni/">Alumni Events</Link></li>
+                <li><Link className="Home" to="/">Home</Link></li>
+                <li><Link className="About-Nav" to="/About">About</Link></li>
+                <li><Link className="Alumni" to="/">Alumni Events</Link></li>
             </ul>
         </nav>
 </header>
